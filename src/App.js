@@ -7,7 +7,7 @@ export default function App() {
 
   const handleSubmit = (evt) => {
     evt.preventDefault()
-    console.log('sending data...', values) // here I can send data to server
+    console.log('Sending data...', values) // here I can send data to server
   }
 
   const handleChange = (evt) => {
